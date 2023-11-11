@@ -117,28 +117,28 @@ scrape_configs:
 ## Start the stack and verifying the Setup
 
 - `docker-compose up -d` to start the entire stack.
-> Once Loki is deployed,will be able to see Loki metrics via [http://ec2-instance-ip:3100](http://ec2-instance-ip:3100) 
+> Once Loki is deployed,will be able to see Loki metrics via [http://ec2-instance-ip:3100](http://ec2-instance-ip:3100)
 
-![loki](https://github.com/ajish-antony/test/assets/48723128/6ca595b1-f8c8-44ee-93a3-25decf531316)
+![loki](https://github.com/ajish-antony/Grafana-Loki-Observability-Stack/assets/48723128/0fa96177-38a4-44eb-bb94-4f8073d9af5d)
 
 >Grafana can be accessd by  [http://ec2-instance-ip:3000](http://ec2-instance-ip:3000) 
 
-![grafana](https://github.com/ajish-antony/test/assets/48723128/26c8cc39-e1bf-4841-9230-4acb69f4719c)
+![grafana](https://github.com/ajish-antony/Grafana-Loki-Observability-Stack/assets/48723128/f5c2601e-d7eb-4230-b622-28b325b8717e)
 
 > Configure the data source for Loki and verify the connectivity. In the case of production, provide the necessary authentication
 
-![loki-3](https://github.com/ajish-antony/test/assets/48723128/ee24a26a-5079-4514-8c4e-3b9909835283)
+![loki-3](https://github.com/ajish-antony/Grafana-Loki-Observability-Stack/assets/48723128/3700d244-1368-410c-bc2e-5603fa591583)
 
-![loki-2](https://github.com/ajish-antony/test/assets/48723128/1fa3772b-12cd-4a00-b1fd-0eb3a7a1c08f)
+![loki-2](https://github.com/ajish-antony/Grafana-Loki-Observability-Stack/assets/48723128/97090a54-9c8c-498e-82ca-306348fde50b)
 
 
 >Here it's visible that both the configured jobs are available in Loki
 
-![explore-1](https://github.com/ajish-antony/test/assets/48723128/1b254db7-d1f0-49c9-a906-39a7f154e676)
+![explore-1](https://github.com/ajish-antony/Grafana-Loki-Observability-Stack/assets/48723128/d44c6856-7bf3-4743-b4e1-4b0a41d8a52a)
 
 >The logs that have been pushed from the specified paths
 
-![explore-2](https://github.com/ajish-antony/test/assets/48723128/fbfd0400-0c4a-4671-b240-d774abb42b47)
+![explore-2](https://github.com/ajish-antony/Grafana-Loki-Observability-Stack/assets/48723128/5715ebeb-fc39-4209-b7b0-3535981f7350)
 
 ## Reference
 - [LOKI](https://grafana.com/oss/loki/)
