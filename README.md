@@ -17,7 +17,7 @@ The basic working behind this is as follows: **LOKI** is deployed to collect, in
 
 ## Docker-Compose file 
 - Here Loki Exposes port 3100 and Specifies the Loki configuration file with` -config.file=/etc/loki/local-config.yaml`.
-- Promtail ensures starts after Loki using the `depends_on` and volume Maps `/var/log` on the host to `/var/log` in the container and ./promtail on the host to `/etc/promtail` in the container as of now.
+- Promtail ensures starts after Loki using the `depends_on` and volume Maps `/var/log` on the host to `/var/log` in the container and `./promtail` on the host to `/etc/promtail` in the container as of now.
 - Prometheus Exposes port 9090 and Grafana Exposes port 3000. 
 - Here as it is for testing only Grafana environment variables sets including the admin username and password.
 - Bridge network named `grafana-loki` is used that all services are connected.
